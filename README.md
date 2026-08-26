@@ -1,3 +1,5 @@
+# This fork is my personally used version of bosch's implementation without nginx, opting for Netbird's reverse proxy (configured seperately) instead.
+
 # Guacamole with docker compose
 This is a small documentation how to run a fully working **Apache Guacamole (incubating)** instance with docker (docker compose). The goal of this project is to make it easy to test Guacamole.
 
@@ -31,9 +33,6 @@ docker run --rm 'guacamole/guacamole:x.x.x' /opt/guacamole/bin/initdb.sh --postg
 ~~~
 
 It creates the necessary database initialization file for postgres.
-
-`prepare.sh` also creates the self-signed certificate `./nginx/ssl/self.cert` and the private key `./nginx/ssl/self-ssl.key` which are used
-by nginx for https.
 
 ## reset.sh
 To reset everything to the beginning, just run `./reset.sh`.
