@@ -22,9 +22,3 @@ cd guacamole-docker-compose
 ./prepare.sh
 docker compose up -d
 ~~~
-
-Your guacamole server should now be available at `https://ip of your server:8443/`. The default username is `guacadmin` with password `guacadmin`.
-
-**Disclaimer**
-
-Downloading and executing scripts from the internet may harm your computer. Make sure to check the source of the scripts before executing them!
