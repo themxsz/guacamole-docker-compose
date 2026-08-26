@@ -17,7 +17,7 @@ You need a working **docker** installation and **docker compose** running on you
 Clone the GIT repository and start guacamole:
 
 ~~~bash
-git clone "https://github.com/themxsz/guacamole-docker.git"
+git clone "https://github.com/themxsz/guacamole-docker-compose.git"
 cd guacamole-docker-compose
 ./prepare.sh
 docker compose up -d
